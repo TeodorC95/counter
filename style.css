@@ -157,6 +157,7 @@ button {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   margin-right: 2%;
+  cursor: pointer;
 }
 button:last-of-type {
   margin-right: 0;

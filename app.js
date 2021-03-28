@@ -28,3 +28,11 @@ btnContainer.addEventListener("click", function (e) {
   else reset();
   count.textContent = counter;
 });
+
+document.addEventListener("keydown", function (e) {
+  console.log(e.key);
+  if (e.key === "ArrowUp") up();
+  else if (e.key === "ArrowDown") down();
+  else if (e.key === " ") reset();
+  count.textContent = counter;
+});
