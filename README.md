@@ -1,2 +1,3 @@
 # counter
- Counter
+
+Learning project - counter
